@@ -1,0 +1,13 @@
+package com.example.oppgaver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OppgaverApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(OppgaverApplication.class, args);
+    }
+
+}

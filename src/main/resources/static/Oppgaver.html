@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oppgaver</title>
+</head>
+<body>
+  <h1>Oppgave1</h1>
+    <button onclick="print()">Trykk meg</button>
+  <h2>Oppgave2</h2>
+    <button onclick="print2()">Trkke meg</button>
+  <h3>Oppgave3</h3>
+  <input onchange="print3(this.value)">
+  <h4>Oppgave4</h4>
+  <input onchange="print4(this.value)">
+  <h5>Oppgave5</h5>
+  <input onchange="print5(this.value)">
+
+<script type="application/javascript">
+    function print(){
+        document.write("Hei, Verden!")
+    }
+    function print2(){
+        alert("Hei, Verden")
+    }
+    function print3(data){
+        document.write(data);
+    }
+    function print4(informasjon){
+        alert(informasjon)
+    }
+    function print5(data){
+        console.log(data);
+    }
+</script>
+
+
+</body>
+</html>
